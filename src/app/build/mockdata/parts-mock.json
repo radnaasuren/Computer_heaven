@@ -1,0 +1,1104 @@
+{
+  "generatedAt": "2026-03-10T04:46:50.599Z",
+  "source": [
+    "cpu-simple-stats.json",
+    "gpu-simple-stats.json",
+    "ram-stats.json",
+    "motherboard-stats.json",
+    "part-type-options.json"
+  ],
+  "defaults": {
+    "cpuId": "cpu-Core-i5-12400F",
+    "gpuId": "gpu-GeForce-RTX-4060",
+    "ramId": "ram-ddr4-16gb-2x8gb-3200",
+    "motherboardId": "mobo-intel-b660-matx-ddr4",
+    "psuId": "psu-650w-80-gold-atx",
+    "caseId": "case-airflow-mid",
+    "coolerId": "cooler-air-120",
+    "fanId": "fan-120-pwm",
+    "storageId": "storage-nvme-1tb"
+  },
+  "parts": {
+    "cpu": [
+      {
+        "id": "cpu-Core-i5-10400F",
+        "name": "Core i5-10400F",
+        "brand": "Intel",
+        "socket": "FCLGA1200",
+        "cores": 6,
+        "threads": 12,
+        "tdpWatts": 65,
+        "supportedMemoryTypes": [
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 7.44,
+        "price": 619500
+      },
+      {
+        "id": "cpu-Core-i5-10600K",
+        "name": "Core i5-10600K",
+        "brand": "Intel",
+        "socket": "FCLGA1200",
+        "cores": 6,
+        "threads": 12,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 8.14,
+        "price": 651000
+      },
+      {
+        "id": "cpu-Core-i7-10700K",
+        "name": "Core i7-10700K",
+        "brand": "Intel",
+        "socket": "FCLGA1200",
+        "cores": 8,
+        "threads": 16,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 10.59,
+        "price": 763000
+      },
+      {
+        "id": "cpu-Core-i9-10900K",
+        "name": "Core i9-10900K",
+        "brand": "Intel",
+        "socket": "FCLGA1200",
+        "cores": 10,
+        "threads": 20,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 12.75,
+        "price": 861000
+      },
+      {
+        "id": "cpu-Core-i5-11400F",
+        "name": "Core i5-11400F",
+        "brand": "Intel",
+        "socket": "FCLGA1200",
+        "cores": 6,
+        "threads": 12,
+        "tdpWatts": 65,
+        "supportedMemoryTypes": [
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 9.65,
+        "price": 717500
+      },
+      {
+        "id": "cpu-Core-i5-11600K",
+        "name": "Core i5-11600K",
+        "brand": "Intel",
+        "socket": "FCLGA1200",
+        "cores": 6,
+        "threads": 12,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 11.15,
+        "price": 787500
+      },
+      {
+        "id": "cpu-Core-i7-11700K",
+        "name": "Core i7-11700K",
+        "brand": "Intel",
+        "socket": "FCLGA1200",
+        "cores": 8,
+        "threads": 16,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 13.91,
+        "price": 913500
+      },
+      {
+        "id": "cpu-Core-i9-11900K",
+        "name": "Core i9-11900K",
+        "brand": "Intel",
+        "socket": "FCLGA1200",
+        "cores": 8,
+        "threads": 16,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 14.26,
+        "price": 927500
+      },
+      {
+        "id": "cpu-Core-i5-12400F",
+        "name": "Core i5-12400F",
+        "brand": "Intel",
+        "socket": "FCLGA1700",
+        "cores": 6,
+        "threads": 12,
+        "tdpWatts": 65,
+        "supportedMemoryTypes": [
+          "DDR5-4800",
+          "DDR4-3200"
+        ],
+        "aggregatePerformanceScore": 11.19,
+        "price": 787500
+      },
+      {
+        "id": "cpu-Core-i5-12600K",
+        "name": "Core i5-12600K",
+        "brand": "Intel",
+        "socket": "FCLGA1700",
+        "cores": 10,
+        "threads": 16,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4",
+          "DDR5"
+        ],
+        "aggregatePerformanceScore": 15.75,
+        "price": 997500
+      },
+      {
+        "id": "cpu-Core-i7-12700K",
+        "name": "Core i7-12700K",
+        "brand": "Intel",
+        "socket": "FCLGA1700",
+        "cores": 12,
+        "threads": 20,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4",
+          "DDR5"
+        ],
+        "aggregatePerformanceScore": 19.61,
+        "price": 1172500
+      },
+      {
+        "id": "cpu-Core-i9-12900K",
+        "name": "Core i9-12900K",
+        "brand": "Intel",
+        "socket": "FCLGA1700",
+        "cores": 16,
+        "threads": 24,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4",
+          "DDR5"
+        ],
+        "aggregatePerformanceScore": 23.51,
+        "price": 1351000
+      },
+      {
+        "id": "cpu-Core-i5-13400F",
+        "name": "Core i5-13400F",
+        "brand": "Intel",
+        "socket": "FCLGA1700",
+        "cores": 10,
+        "threads": 16,
+        "tdpWatts": 65,
+        "supportedMemoryTypes": [
+          "DDR5",
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 14.29,
+        "price": 931000
+      },
+      {
+        "id": "cpu-Core-i5-13600K",
+        "name": "Core i5-13600K",
+        "brand": "Intel",
+        "socket": "FCLGA1700",
+        "cores": 14,
+        "threads": 20,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4",
+          "DDR5"
+        ],
+        "aggregatePerformanceScore": 21.47,
+        "price": 1256500
+      },
+      {
+        "id": "cpu-Core-i7-13700K",
+        "name": "Core i7-13700K",
+        "brand": "Intel",
+        "socket": "FCLGA1700",
+        "cores": 16,
+        "threads": 24,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4",
+          "DDR5"
+        ],
+        "aggregatePerformanceScore": 26.14,
+        "price": 1470000
+      },
+      {
+        "id": "cpu-Core-i9-13900K",
+        "name": "Core i9-13900K",
+        "brand": "Intel",
+        "socket": "FCLGA1700",
+        "cores": 24,
+        "threads": 32,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4",
+          "DDR5"
+        ],
+        "aggregatePerformanceScore": 33.3,
+        "price": 1795500
+      },
+      {
+        "id": "cpu-Core-i5-14600K",
+        "name": "Core i5-14600K",
+        "brand": "Intel",
+        "socket": "FCLGA1700",
+        "cores": 14,
+        "threads": 20,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4",
+          "DDR5"
+        ],
+        "aggregatePerformanceScore": 21.99,
+        "price": 1281000
+      },
+      {
+        "id": "cpu-Core-i7-14700K",
+        "name": "Core i7-14700K",
+        "brand": "Intel",
+        "socket": "FCLGA1700",
+        "cores": 20,
+        "threads": 28,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4",
+          "DDR5"
+        ],
+        "aggregatePerformanceScore": 29.78,
+        "price": 1634500
+      },
+      {
+        "id": "cpu-Core-i9-14900K",
+        "name": "Core i9-14900K",
+        "brand": "Intel",
+        "socket": "FCLGA1700",
+        "cores": 24,
+        "threads": 32,
+        "tdpWatts": 125,
+        "supportedMemoryTypes": [
+          "DDR4",
+          "DDR5"
+        ],
+        "aggregatePerformanceScore": 33.39,
+        "price": 1799000
+      },
+      {
+        "id": "cpu-Ryzen-5-5600",
+        "name": "Ryzen 5 5600",
+        "brand": "TSMC",
+        "socket": "AM4",
+        "cores": 6,
+        "threads": 12,
+        "tdpWatts": 65,
+        "supportedMemoryTypes": [
+          "DDR4-3200"
+        ],
+        "aggregatePerformanceScore": 12.31,
+        "price": 840000
+      },
+      {
+        "id": "cpu-Ryzen-5-5600X",
+        "name": "Ryzen 5 5600X",
+        "brand": "TSMC",
+        "socket": "AM4",
+        "cores": 6,
+        "threads": 12,
+        "tdpWatts": 65,
+        "supportedMemoryTypes": [
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 12.48,
+        "price": 847000
+      },
+      {
+        "id": "cpu-Ryzen-7-5700X",
+        "name": "Ryzen 7 5700X",
+        "brand": "TSMC",
+        "socket": "AM4",
+        "cores": 8,
+        "threads": 16,
+        "tdpWatts": 65,
+        "supportedMemoryTypes": [
+          "DDR4-3200"
+        ],
+        "aggregatePerformanceScore": 15.2,
+        "price": 973000
+      },
+      {
+        "id": "cpu-Ryzen-7-5800X",
+        "name": "Ryzen 7 5800X",
+        "brand": "TSMC",
+        "socket": "AM4",
+        "cores": 8,
+        "threads": 16,
+        "tdpWatts": 105,
+        "supportedMemoryTypes": [
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 15.83,
+        "price": 1001000
+      },
+      {
+        "id": "cpu-Ryzen-9-5900X",
+        "name": "Ryzen 9 5900X",
+        "brand": "TSMC",
+        "socket": "AM4",
+        "cores": 12,
+        "threads": 24,
+        "tdpWatts": 105,
+        "supportedMemoryTypes": [
+          "DDR4-3200"
+        ],
+        "aggregatePerformanceScore": 22.25,
+        "price": 1291500
+      },
+      {
+        "id": "cpu-Ryzen-9-5950X",
+        "name": "Ryzen 9 5950X",
+        "brand": "TSMC",
+        "socket": "AM4",
+        "cores": 16,
+        "threads": 32,
+        "tdpWatts": 105,
+        "supportedMemoryTypes": [
+          "DDR4"
+        ],
+        "aggregatePerformanceScore": 25.9,
+        "price": 1459500
+      },
+      {
+        "id": "cpu-Ryzen-5-7600",
+        "name": "Ryzen 5 7600",
+        "brand": "TSMC",
+        "socket": "AM5",
+        "cores": 6,
+        "threads": 12,
+        "tdpWatts": 65,
+        "supportedMemoryTypes": [
+          "DDR5-5200"
+        ],
+        "aggregatePerformanceScore": 15.43,
+        "price": 983500
+      },
+      {
+        "id": "cpu-Ryzen-5-7600X",
+        "name": "Ryzen 5 7600X",
+        "brand": "TSMC",
+        "socket": "AM5",
+        "cores": 6,
+        "threads": 12,
+        "tdpWatts": 105,
+        "supportedMemoryTypes": [
+          "DDR5-5200"
+        ],
+        "aggregatePerformanceScore": 16.18,
+        "price": 1015000
+      },
+      {
+        "id": "cpu-Ryzen-7-7700X",
+        "name": "Ryzen 7 7700X",
+        "brand": "TSMC",
+        "socket": "AM5",
+        "cores": 8,
+        "threads": 16,
+        "tdpWatts": 105,
+        "supportedMemoryTypes": [
+          "DDR5-5200"
+        ],
+        "aggregatePerformanceScore": 20.33,
+        "price": 1204000
+      },
+      {
+        "id": "cpu-Ryzen-7-7800X3D",
+        "name": "Ryzen 7 7800X3D",
+        "brand": "TSMC",
+        "socket": "AM5",
+        "cores": 8,
+        "threads": 16,
+        "tdpWatts": 120,
+        "supportedMemoryTypes": [
+          "DDR5-5200"
+        ],
+        "aggregatePerformanceScore": 19.59,
+        "price": 1172500
+      },
+      {
+        "id": "cpu-Ryzen-9-7900X",
+        "name": "Ryzen 9 7900X",
+        "brand": "TSMC",
+        "socket": "AM5",
+        "cores": 12,
+        "threads": 24,
+        "tdpWatts": 170,
+        "supportedMemoryTypes": [
+          "DDR5-5200"
+        ],
+        "aggregatePerformanceScore": 29.31,
+        "price": 1613500
+      },
+      {
+        "id": "cpu-Ryzen-9-7950X",
+        "name": "Ryzen 9 7950X",
+        "brand": "TSMC",
+        "socket": "AM5",
+        "cores": 16,
+        "threads": 32,
+        "tdpWatts": 170,
+        "supportedMemoryTypes": [
+          "DDR5-5200"
+        ],
+        "aggregatePerformanceScore": 35.55,
+        "price": 1897000
+      }
+    ],
+    "gpu": [
+      {
+        "id": "gpu-GeForce-GTX-1650",
+        "name": "GeForce GTX 1650",
+        "brand": "NVIDIA",
+        "vram": "4 GB",
+        "lengthMm": 229,
+        "tdpWatts": 75,
+        "aggregatePerformanceScore": 18.83,
+        "price": 1214500
+      },
+      {
+        "id": "gpu-GeForce-RTX-2060",
+        "name": "GeForce RTX 2060",
+        "brand": "NVIDIA",
+        "vram": "6 GB",
+        "lengthMm": 229,
+        "tdpWatts": 160,
+        "aggregatePerformanceScore": 33.72,
+        "price": 1788500
+      },
+      {
+        "id": "gpu-GeForce-RTX-3060",
+        "name": "GeForce RTX 3060",
+        "brand": "NVIDIA",
+        "vram": "12 GB",
+        "lengthMm": 242,
+        "tdpWatts": 170,
+        "aggregatePerformanceScore": 40.67,
+        "price": 2054500
+      },
+      {
+        "id": "gpu-GeForce-RTX-3060-Ti",
+        "name": "GeForce RTX 3060 Ti",
+        "brand": "NVIDIA",
+        "vram": "8 GB",
+        "lengthMm": 242,
+        "tdpWatts": 200,
+        "aggregatePerformanceScore": 48.51,
+        "price": 2359000
+      },
+      {
+        "id": "gpu-GeForce-RTX-4060",
+        "name": "GeForce RTX 4060",
+        "brand": "NVIDIA",
+        "vram": "8 GB",
+        "lengthMm": 240,
+        "tdpWatts": 115,
+        "aggregatePerformanceScore": 46.7,
+        "price": 2289000
+      },
+      {
+        "id": "gpu-GeForce-RTX-4060-Ti",
+        "name": "GeForce RTX 4060 Ti",
+        "brand": "NVIDIA",
+        "vram": "8 GB",
+        "lengthMm": 240,
+        "tdpWatts": 160,
+        "aggregatePerformanceScore": 54.12,
+        "price": 2572500
+      },
+      {
+        "id": "gpu-GeForce-RTX-4070",
+        "name": "GeForce RTX 4070",
+        "brand": "NVIDIA",
+        "vram": "12 GB",
+        "lengthMm": 240,
+        "tdpWatts": 200,
+        "aggregatePerformanceScore": 64.37,
+        "price": 2968000
+      },
+      {
+        "id": "gpu-GeForce-RTX-4070-SUPER",
+        "name": "GeForce RTX 4070 SUPER",
+        "brand": "NVIDIA",
+        "vram": "12 GB",
+        "lengthMm": 267,
+        "tdpWatts": 220,
+        "aggregatePerformanceScore": 71.65,
+        "price": 3248000
+      },
+      {
+        "id": "gpu-GeForce-RTX-4070-Ti-SUPER",
+        "name": "GeForce RTX 4070 Ti SUPER",
+        "brand": "NVIDIA",
+        "vram": "16 GB",
+        "lengthMm": 310,
+        "tdpWatts": 285,
+        "aggregatePerformanceScore": 76.02,
+        "price": 3416000
+      },
+      {
+        "id": "gpu-GeForce-RTX-4080-SUPER",
+        "name": "GeForce RTX 4080 SUPER",
+        "brand": "NVIDIA",
+        "vram": "16 GB",
+        "lengthMm": 310,
+        "tdpWatts": 320,
+        "aggregatePerformanceScore": 81.91,
+        "price": 3643500
+      },
+      {
+        "id": "gpu-GeForce-RTX-4090",
+        "name": "GeForce RTX 4090",
+        "brand": "NVIDIA",
+        "vram": "24 GB",
+        "lengthMm": 304,
+        "tdpWatts": 450,
+        "aggregatePerformanceScore": 91.09,
+        "price": 3997000
+      },
+      {
+        "id": "gpu-Radeon-RX-6600",
+        "name": "Radeon RX 6600",
+        "brand": "AMD",
+        "vram": "8 GB",
+        "lengthMm": 190,
+        "tdpWatts": 132,
+        "aggregatePerformanceScore": 36.04,
+        "price": 1876000
+      },
+      {
+        "id": "gpu-Radeon-RX-6650-XT",
+        "name": "Radeon RX 6650 XT",
+        "brand": "AMD",
+        "vram": "8 GB",
+        "lengthMm": 250,
+        "tdpWatts": 176,
+        "aggregatePerformanceScore": 40.93,
+        "price": 2065000
+      },
+      {
+        "id": "gpu-Radeon-RX-6700-XT",
+        "name": "Radeon RX 6700 XT",
+        "brand": "AMD",
+        "vram": "12 GB",
+        "lengthMm": 267,
+        "tdpWatts": 230,
+        "aggregatePerformanceScore": 47.19,
+        "price": 2306500
+      },
+      {
+        "id": "gpu-Radeon-RX-6750-XT",
+        "name": "Radeon RX 6750 XT",
+        "brand": "AMD",
+        "vram": "12 GB",
+        "lengthMm": 267,
+        "tdpWatts": 250,
+        "aggregatePerformanceScore": 49.52,
+        "price": 2397500
+      },
+      {
+        "id": "gpu-Radeon-RX-7600",
+        "name": "Radeon RX 7600",
+        "brand": "AMD",
+        "vram": "8 GB",
+        "lengthMm": 204,
+        "tdpWatts": 165,
+        "aggregatePerformanceScore": 39.57,
+        "price": 2012500
+      },
+      {
+        "id": "gpu-Radeon-RX-7700-XT",
+        "name": "Radeon RX 7700 XT",
+        "brand": "AMD",
+        "vram": "12 GB",
+        "lengthMm": 267,
+        "tdpWatts": 245,
+        "aggregatePerformanceScore": 54.14,
+        "price": 2576000
+      },
+      {
+        "id": "gpu-Radeon-RX-7800-XT",
+        "name": "Radeon RX 7800 XT",
+        "brand": "AMD",
+        "vram": "16 GB",
+        "lengthMm": 267,
+        "tdpWatts": 263,
+        "aggregatePerformanceScore": 58.16,
+        "price": 2730000
+      },
+      {
+        "id": "gpu-Radeon-RX-7900-GRE",
+        "name": "Radeon RX 7900 GRE",
+        "brand": "AMD",
+        "vram": "16 GB",
+        "lengthMm": 276,
+        "tdpWatts": 260,
+        "aggregatePerformanceScore": 65.28,
+        "price": 3003000
+      },
+      {
+        "id": "gpu-Radeon-RX-7900-XT",
+        "name": "Radeon RX 7900 XT",
+        "brand": "AMD",
+        "vram": "20 GB",
+        "lengthMm": 276,
+        "tdpWatts": 300,
+        "aggregatePerformanceScore": 69.34,
+        "price": 3160500
+      },
+      {
+        "id": "gpu-Radeon-RX-7900-XTX",
+        "name": "Radeon RX 7900 XTX",
+        "brand": "AMD",
+        "vram": "24 GB",
+        "lengthMm": 287,
+        "tdpWatts": 355,
+        "aggregatePerformanceScore": 74.99,
+        "price": 3377500
+      }
+    ],
+    "ram": [
+      {
+        "id": "ram-ddr4-8gb-1x8gb-3200",
+        "name": "DDR4 8GB 1x8GB 3200",
+        "type": "DDR4",
+        "speed": "3200 MT/s",
+        "capacity": "8GB",
+        "modules": "1x8GB",
+        "price": 101733
+      },
+      {
+        "id": "ram-ddr4-16gb-2x8gb-3200",
+        "name": "DDR4 16GB 2x8GB 3200",
+        "type": "DDR4",
+        "speed": "3200 MT/s",
+        "capacity": "16GB",
+        "modules": "2x8GB",
+        "price": 166133
+      },
+      {
+        "id": "ram-ddr4-16gb-2x8gb-3600",
+        "name": "DDR4 16GB 2x8GB 3600",
+        "type": "DDR4",
+        "speed": "3600 MT/s",
+        "capacity": "16GB",
+        "modules": "2x8GB",
+        "price": 170800
+      },
+      {
+        "id": "ram-ddr4-32gb-2x16gb-3200",
+        "name": "DDR4 32GB 2x16GB 3200",
+        "type": "DDR4",
+        "speed": "3200 MT/s",
+        "capacity": "32GB",
+        "modules": "2x16GB",
+        "price": 294933
+      },
+      {
+        "id": "ram-ddr4-32gb-2x16gb-3600",
+        "name": "DDR4 32GB 2x16GB 3600",
+        "type": "DDR4",
+        "speed": "3600 MT/s",
+        "capacity": "32GB",
+        "modules": "2x16GB",
+        "price": 299600
+      },
+      {
+        "id": "ram-ddr4-64gb-2x32gb-3200",
+        "name": "DDR4 64GB 2x32GB 3200",
+        "type": "DDR4",
+        "speed": "3200 MT/s",
+        "capacity": "64GB",
+        "modules": "2x32GB",
+        "price": 552533
+      },
+      {
+        "id": "ram-ddr5-16gb-2x8gb-5200",
+        "name": "DDR5 16GB 2x8GB 5200",
+        "type": "DDR5",
+        "speed": "5200 MT/s",
+        "capacity": "16GB",
+        "modules": "2x8GB",
+        "price": 256667
+      },
+      {
+        "id": "ram-ddr5-32gb-2x16gb-5600",
+        "name": "DDR5 32GB 2x16GB 5600",
+        "type": "DDR5",
+        "speed": "5600 MT/s",
+        "capacity": "32GB",
+        "modules": "2x16GB",
+        "price": 457333
+      },
+      {
+        "id": "ram-ddr5-32gb-2x16gb-6000",
+        "name": "DDR5 32GB 2x16GB 6000",
+        "type": "DDR5",
+        "speed": "6000 MT/s",
+        "capacity": "32GB",
+        "modules": "2x16GB",
+        "price": 462000
+      },
+      {
+        "id": "ram-ddr5-48gb-2x24gb-6000",
+        "name": "DDR5 48GB 2x24GB 6000",
+        "type": "DDR5",
+        "speed": "6000 MT/s",
+        "capacity": "48GB",
+        "modules": "2x24GB",
+        "price": 658000
+      },
+      {
+        "id": "ram-ddr5-64gb-2x32gb-6000",
+        "name": "DDR5 64GB 2x32GB 6000",
+        "type": "DDR5",
+        "speed": "6000 MT/s",
+        "capacity": "64GB",
+        "modules": "2x32GB",
+        "price": 854000
+      },
+      {
+        "id": "ram-ddr5-96gb-2x48gb-6400",
+        "name": "DDR5 96GB 2x48GB 6400",
+        "type": "DDR5",
+        "speed": "6400 MT/s",
+        "capacity": "96GB",
+        "modules": "2x48GB",
+        "price": 1250667
+      }
+    ],
+    "motherboard": [
+      {
+        "id": "mobo-intel-h510-matx-ddr4",
+        "name": "Intel H510 mATX DDR4",
+        "brand": "Generic",
+        "socket": "FCLGA1200",
+        "chipset": "H510",
+        "ramType": "DDR4",
+        "formFactor": "Micro-ATX",
+        "price": 455000
+      },
+      {
+        "id": "mobo-intel-b560-atx-ddr4",
+        "name": "Intel B560 ATX DDR4",
+        "brand": "Generic",
+        "socket": "FCLGA1200",
+        "chipset": "B560",
+        "ramType": "DDR4",
+        "formFactor": "ATX",
+        "price": 455000
+      },
+      {
+        "id": "mobo-intel-z590-atx-ddr4",
+        "name": "Intel Z590 ATX DDR4",
+        "brand": "Generic",
+        "socket": "FCLGA1200",
+        "chipset": "Z590",
+        "ramType": "DDR4",
+        "formFactor": "ATX",
+        "price": 700000
+      },
+      {
+        "id": "mobo-intel-b660-matx-ddr4",
+        "name": "Intel B660 mATX DDR4",
+        "brand": "Generic",
+        "socket": "FCLGA1700",
+        "chipset": "B660",
+        "ramType": "DDR4",
+        "formFactor": "Micro-ATX",
+        "price": 455000
+      },
+      {
+        "id": "mobo-intel-b760-atx-ddr4",
+        "name": "Intel B760 ATX DDR4",
+        "brand": "Generic",
+        "socket": "FCLGA1700",
+        "chipset": "B760",
+        "ramType": "DDR4",
+        "formFactor": "ATX",
+        "price": 455000
+      },
+      {
+        "id": "mobo-intel-b760-atx-ddr5",
+        "name": "Intel B760 ATX DDR5",
+        "brand": "Generic",
+        "socket": "FCLGA1700",
+        "chipset": "B760",
+        "ramType": "DDR5",
+        "formFactor": "ATX",
+        "price": 542500
+      },
+      {
+        "id": "mobo-intel-z790-atx-ddr5",
+        "name": "Intel Z790 ATX DDR5",
+        "brand": "Generic",
+        "socket": "FCLGA1700",
+        "chipset": "Z790",
+        "ramType": "DDR5",
+        "formFactor": "ATX",
+        "price": 787500
+      },
+      {
+        "id": "mobo-amd-b550-atx-ddr4",
+        "name": "AMD B550 ATX DDR4",
+        "brand": "Generic",
+        "socket": "AM4",
+        "chipset": "B550",
+        "ramType": "DDR4",
+        "formFactor": "ATX",
+        "price": 455000
+      },
+      {
+        "id": "mobo-amd-x570-atx-ddr4",
+        "name": "AMD X570 ATX DDR4",
+        "brand": "Generic",
+        "socket": "AM4",
+        "chipset": "X570",
+        "ramType": "DDR4",
+        "formFactor": "ATX",
+        "price": 700000
+      },
+      {
+        "id": "mobo-amd-b650-atx-ddr5",
+        "name": "AMD B650 ATX DDR5",
+        "brand": "Generic",
+        "socket": "AM5",
+        "chipset": "B650",
+        "ramType": "DDR5",
+        "formFactor": "ATX",
+        "price": 542500
+      },
+      {
+        "id": "mobo-amd-x670e-atx-ddr5",
+        "name": "AMD X670E ATX DDR5",
+        "brand": "Generic",
+        "socket": "AM5",
+        "chipset": "X670E",
+        "ramType": "DDR5",
+        "formFactor": "ATX",
+        "price": 787500
+      }
+    ],
+    "psu": [
+      {
+        "id": "psu-550w-80-bronze-atx",
+        "name": "550W 80+ Bronze PSU",
+        "watt": 550,
+        "efficiency": "80+ Bronze",
+        "formFactor": "ATX",
+        "modular": "Semi-Modular",
+        "price": 420000
+      },
+      {
+        "id": "psu-650w-80-gold-atx",
+        "name": "650W 80+ Gold PSU",
+        "watt": 650,
+        "efficiency": "80+ Gold",
+        "formFactor": "ATX",
+        "modular": "Fully Modular",
+        "price": 577500
+      },
+      {
+        "id": "psu-750w-80-gold-atx",
+        "name": "750W 80+ Gold PSU",
+        "watt": 750,
+        "efficiency": "80+ Gold",
+        "formFactor": "ATX",
+        "modular": "Fully Modular",
+        "price": 647500
+      },
+      {
+        "id": "psu-850w-80-gold-atx",
+        "name": "850W 80+ Gold PSU",
+        "watt": 850,
+        "efficiency": "80+ Gold",
+        "formFactor": "ATX",
+        "modular": "Fully Modular",
+        "price": 717500
+      }
+    ],
+    "case": [
+      {
+        "id": "case-airflow-micro",
+        "name": "Airflow Micro Case",
+        "size": "Mini Tower",
+        "supportedMotherboardSizes": [
+          "Mini-ITX",
+          "Micro-ATX"
+        ],
+        "gpuMaxLengthMm": 320,
+        "coolerMaxHeightMm": 160,
+        "radiatorSupportMm": [
+          "120mm",
+          "240mm"
+        ],
+        "price": 227500
+      },
+      {
+        "id": "case-airflow-mid",
+        "name": "Airflow Mid Tower",
+        "size": "Mid Tower",
+        "supportedMotherboardSizes": [
+          "Mini-ITX",
+          "Micro-ATX",
+          "ATX"
+        ],
+        "gpuMaxLengthMm": 380,
+        "coolerMaxHeightMm": 170,
+        "radiatorSupportMm": [
+          "120mm",
+          "240mm",
+          "280mm",
+          "360mm"
+        ],
+        "price": 332500
+      },
+      {
+        "id": "case-pro-full",
+        "name": "Pro Full Tower",
+        "size": "Full Tower",
+        "supportedMotherboardSizes": [
+          "Mini-ITX",
+          "Micro-ATX",
+          "ATX",
+          "E-ATX"
+        ],
+        "gpuMaxLengthMm": 420,
+        "coolerMaxHeightMm": 185,
+        "radiatorSupportMm": [
+          "120mm",
+          "240mm",
+          "280mm",
+          "360mm"
+        ],
+        "price": 525000
+      }
+    ],
+    "cooler": [
+      {
+        "id": "cooler-air-120",
+        "name": "Tower Air 120",
+        "type": "Air Cooler",
+        "supportedSockets": [
+          "FCLGA1200",
+          "FCLGA1700",
+          "AM4",
+          "AM5"
+        ],
+        "tdpSupportWatts": 150,
+        "heightMm": 155,
+        "radiatorSizeMm": null,
+        "price": 122500
+      },
+      {
+        "id": "cooler-air-dual",
+        "name": "Dual Tower Air 140",
+        "type": "Air Cooler",
+        "supportedSockets": [
+          "FCLGA1200",
+          "FCLGA1700",
+          "AM4",
+          "AM5"
+        ],
+        "tdpSupportWatts": 220,
+        "heightMm": 165,
+        "radiatorSizeMm": null,
+        "price": 227500
+      },
+      {
+        "id": "cooler-aio-240",
+        "name": "AIO Liquid 240",
+        "type": "AIO Liquid Cooler",
+        "supportedSockets": [
+          "FCLGA1200",
+          "FCLGA1700",
+          "AM4",
+          "AM5"
+        ],
+        "tdpSupportWatts": 280,
+        "heightMm": null,
+        "radiatorSizeMm": 240,
+        "price": 332500
+      }
+    ],
+    "fan": [
+      {
+        "id": "fan-120-pwm",
+        "name": "120mm PWM Fan",
+        "sizeMm": 120,
+        "connectorType": "4-pin PWM",
+        "rgb": "No",
+        "maxRpm": 1500,
+        "price": 42000
+      },
+      {
+        "id": "fan-140-argb",
+        "name": "140mm ARGB Fan",
+        "sizeMm": 140,
+        "connectorType": "4-pin PWM",
+        "rgb": "ARGB",
+        "maxRpm": 1800,
+        "price": 63000
+      }
+    ],
+    "storage": [
+      {
+        "id": "storage-nvme-1tb",
+        "name": "NVMe SSD 1TB",
+        "type": "NVMe SSD",
+        "capacity": "1TB",
+        "speed": "PCIe 4.0",
+        "formFactor": "M.2 2280",
+        "price": 262500
+      },
+      {
+        "id": "storage-nvme-2tb",
+        "name": "NVMe SSD 2TB",
+        "type": "NVMe SSD",
+        "capacity": "2TB",
+        "speed": "PCIe 4.0",
+        "formFactor": "M.2 2280",
+        "price": 455000
+      },
+      {
+        "id": "storage-sata-1tb",
+        "name": "SATA SSD 1TB",
+        "type": "SATA SSD",
+        "capacity": "1TB",
+        "speed": "SATA 550 MB/s",
+        "formFactor": "2.5-inch",
+        "price": 210000
+      },
+      {
+        "id": "storage-hdd-2tb",
+        "name": "HDD 2TB 7200RPM",
+        "type": "HDD",
+        "capacity": "2TB",
+        "speed": "7200 RPM",
+        "formFactor": "3.5-inch",
+        "price": 192500
+      }
+    ]
+  }
+}
