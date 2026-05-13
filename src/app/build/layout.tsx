@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Header from "../layout/header";
 
 export const metadata: Metadata = {
   title: "PC Build",
@@ -11,10 +10,5 @@ export default function BuildLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <>
-      <Header />
-      {children}
-    </>
-  );  
+  return <>{children}</>;
 }

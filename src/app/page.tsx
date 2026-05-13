@@ -1,103 +1,121 @@
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
+import { Card } from "@/components/ui/card";
+import { ClipboardList, Monitor } from "lucide-react";
+import DummyBuilds from "@/data/build.json";
 
-type FeaturedBuild = {
-  name: string;
-  cpu: string;
-  gpu: string;
+type Build = {
+  id: number;
+  title: string;
+  specs: string;
   price: string;
+  img: string;
+  category: string;
+  description: string;
 };
 
-const featuredBuilds: FeaturedBuild[] = [
-  { name: "Budget Gaming", cpu: "Ryzen 5", gpu: "RTX 4060", price: "$949" },
-  { name: "Creator Tower", cpu: "Core Ultra 7", gpu: "RTX 4070", price: "$1,599" },
-  { name: "Streaming Rig", cpu: "Ryzen 7", gpu: "RTX 4070 Super", price: "$1,849" },
-];
-
 export default function Home() {
+  const builds: Build[] = DummyBuilds;
+
   return (
-    <main className="min-h-screen bg-background px-6 py-12 text-foreground md:px-10">
-      <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-[1.2fr_0.8fr]">
-        <section className="space-y-6">
-          <div className="space-y-3">
-            <p className="text-sm font-medium text-muted-foreground">
-              PC Build Configurator
-            </p>
-            <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
-              Start building your next desktop with `shadcn/ui`.
-            </h1>
-            <p className="max-w-2xl text-base text-muted-foreground md:text-lg">
-              This starter app is ready for custom configurator flows, pricing,
-              and saved builds. The homepage already imports `Button`, `Card`,
-              and `Input` components from `shadcn/ui`.
-            </p>
+    <>
+      {/* HERO SECTION */}
+      <div className="flex flex-col md:flex-row items-center justify-between gap-10 py-10">
+        {/* LEFT */}
+        <div className="max-w-xl">
+          <h1 className="text-5xl font-bold mb-4 text-[#1a1a2e]">
+            Build Your Perfect PC
+          </h1>
+
+          <p className="text-gray-500 mb-8 text-lg">
+            Smart recommendations based on your needs
+          </p>
+
+          <div className="flex gap-4 mb-10">
+            <Link href="/survey">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 rounded-xl text-base font-semibold shadow-md">
+                Start Survey
+              </Button>
+            </Link>
+
+            <Link href="/build">
+              <Button variant="outline" className="px-8 py-6 rounded-xl text-base font-semibold border-gray-300">
+                Build Manually
+              </Button>
+            </Link>
           </div>
 
-          <div className="flex flex-col gap-3 sm:flex-row">
-            <Button size="lg">Create a build</Button>
-            <Button variant="outline" size="lg">
-              Browse presets
-            </Button>
-          </div>
-
-          <div className="grid gap-4 md:grid-cols-3">
-            {featuredBuilds.map((build) => (
-              <Card key={build.name}>
-                <CardHeader>
-                  <CardTitle>{build.name}</CardTitle>
-                  <CardDescription>
-                    {build.cpu} + {build.gpu}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-2xl font-semibold">{build.price}</p>
-                </CardContent>
-                <CardFooter className="justify-between">
-                  <span className="text-sm text-muted-foreground">
-                    Ready to customize
-                  </span>
-                  <Button variant="ghost">Select</Button>
-                </CardFooter>
+          {/* SMALL CARDS */}
+          <div className="flex gap-4">
+            <Link href="/survey" className="block">
+              <Card className="p-5 w-64 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow cursor-pointer bg-white">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="p-2 bg-blue-50 rounded-lg">
+                    <ClipboardList className="w-5 h-5 text-blue-600" />
+                  </div>
+                  <div className="font-semibold text-base">Smart Survey</div>
+                </div>
+                <p className="text-sm text-gray-400">
+                  Answer a few questions → get build
+                </p>
               </Card>
-            ))}
-          </div>
-        </section>
+            </Link>
 
-        <Card className="h-fit">
-          <CardHeader>
-            <CardTitle>Notify Me</CardTitle>
-            <CardDescription>
-              Collect leads for custom builds, stock drops, or new launch
-              bundles.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <div className="space-y-2">
-              <label className="text-sm font-medium" htmlFor="email">
-                Email
-              </label>
-              <Input id="email" type="email" placeholder="builder@example.com" />
-            </div>
-            <div className="space-y-2">
-              <label className="text-sm font-medium" htmlFor="focus">
-                Build focus
-              </label>
-              <Input id="focus" placeholder="Gaming, streaming, or workstation" />
-            </div>
-          </CardContent>
-          <CardFooter>
-            <Button className="w-full">Join waitlist</Button>
-          </CardFooter>
-        </Card>
+            <Link href="/build" className="block">
+              <Card className="p-5 w-64 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow cursor-pointer bg-white">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="p-2 bg-blue-50 rounded-lg">
+                    <Monitor className="w-5 h-5 text-blue-600" />
+                  </div>
+                  <div className="font-semibold text-base">PC Builder</div>
+                </div>
+                <p className="text-sm text-gray-400">
+                  Answer a few questions → get build
+                </p>
+              </Card>
+            </Link>
+          </div>
+        </div>
+
+      {/* RIGHT IMAGE */}
+<div className="w-[480px] max-w-full flex items-center justify-center">
+  <img
+    src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600"
+    alt="PC"
+    className="w-full h-[420px] object-cover object-center drop-shadow-2xl rounded-2xl"
+  />
+</div>
       </div>
-    </main>
+
+      {/* RECOMMENDED BUILDS */}
+      <div className="mt-8 pb-10">
+        <div className="flex justify-between items-center mb-6">
+          <h2 className="text-2xl font-bold text-[#1a1a2e]">Recommended Builds</h2>
+          <Link href="/build" className="text-blue-600 hover:underline font-medium">
+            View All →
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          {builds.map(({ id, title, specs, price, img }) => (
+            <Card
+              key={id}
+              className="flex flex-row items-center gap-4 p-4 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow bg-white cursor-pointer"
+            >
+              <img
+                alt={title}
+                src={img}
+                className="w-20 h-20 object-cover rounded-xl shrink-0"
+              />
+              <div className="flex flex-col flex-1 min-w-0">
+                <div className="font-semibold text-base text-[#1a1a2e] mb-1">{title}</div>
+                <div className="text-sm text-gray-400 whitespace-pre-line">{specs}</div>
+                <div className="font-bold text-base text-[#1a1a2e] mt-2">{price}</div>
+              </div>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </>
   );
 }
