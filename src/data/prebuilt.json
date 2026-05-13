@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "title": "Gaming Beast Pro",
+    "category": "Gaming",
+    "price": "2,499,000",
+    "img": "https://images.unsplash.com/photo-1587202372583-49330a15584d?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i9-13900K | RTX 4080 | 32GB DDR5 | 1TB NVMe",
+    "description": "Өндөр гүйцэтгэлтэй геймийн компьютер. Хамгийн шинэ тоглоомуудыг 4K чанарт тоглоно.",
+    "badge": "Шилдэг сонголт"
+  },
+  {
+    "id": 2,
+    "title": "Office Elite",
+    "category": "Office",
+    "price": "1,299,000",
+    "img": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i5-13400 | Intel UHD | 16GB DDR4 | 512GB NVMe",
+    "description": "Оффисын ажилд тохиромжтой, хэмнэлттэй, найдвартай компьютер.",
+    "badge": "Хямд үнэ"
+  },
+  {
+    "id": 3,
+    "title": "Creator Studio X",
+    "category": "Workstation",
+    "price": "3,799,000",
+    "img": "https://images.unsplash.com/photo-1593640495253-23196b27a87f?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 9 7950X | RTX 4090 | 64GB DDR5 | 2TB NVMe",
+    "description": "Видео засварлагч, 3D дизайнерт зориулсан хүчирхэг workstation.",
+    "badge": "Шинэ"
+  },
+  {
+    "id": 4,
+    "title": "Budget Builder",
+    "category": "Budget",
+    "price": "899,000",
+    "img": "https://images.unsplash.com/photo-1547082299-de196ea013d6?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 5 5600 | RX 6600 | 16GB DDR4 | 480GB SSD",
+    "description": "Хямд үнээр сайн гүйцэтгэл авах боломжтой анхлан суралцагчдад тохиромжтой.",
+    "badge": "Эхлэгчдэд"
+  },
+  {
+    "id": 5,
+    "title": "Silent Pro Mini",
+    "category": "Office",
+    "price": "1,599,000",
+    "img": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i7-13700T | Arc A380 | 32GB DDR4 | 1TB NVMe",
+    "description": "Чимээгүй, компакт дизайнтай, ширээний зайг хэмнэдэг Mini-ITX корпустай PC.",
+    "badge": "Хамгийн их зарагдсан"
+  },
+  {
+    "id": 6,
+    "title": "Turbo Gamer Lite",
+    "category": "Gaming",
+    "price": "1,899,000",
+    "img": "https://images.unsplash.com/photo-1624705002806-5d72df19c3ad?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 7 7700 | RTX 4060 Ti | 32GB DDR5 | 1TB NVMe",
+    "description": "Дунд түвшний геймерт зориулсан оновчтой үнэ-чанарын харьцаатай PC.",
+    "badge": null
+  },
+  {
+    "id": 7,
+    "title": "Apex RGB Master",
+    "category": "Gaming",
+    "price": "2,199,000",
+    "img": "https://images.unsplash.com/photo-1593640495253-23196b27a87f?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i7-13700F | RTX 4070 | 32GB DDR5 | 1TB NVMe",
+    "description": "RGB гэрэлтүүлэгтэй, өндөр FPS тоглоомд тохиромжтой гейминг компьютер.",
+    "badge": "RGB"
+  },
+  {
+    "id": 8,
+    "title": "WorkMate Basic",
+    "category": "Office",
+    "price": "749,000",
+    "img": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i3-12100 | Intel UHD | 8GB DDR4 | 256GB SSD",
+    "description": "Сургалт, бичиг баримт, оффисын энгийн хэрэглээнд тохиромжтой.",
+    "badge": "Хямд"
+  },
+  {
+    "id": 9,
+    "title": "Render Titan",
+    "category": "Workstation",
+    "price": "4,299,000",
+    "img": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 9 7900X | RTX 4080 Super | 64GB DDR5 | 2TB NVMe",
+    "description": "3D render, animation, video editing хийхэд зориулагдсан хүчирхэг систем.",
+    "badge": "Pro"
+  },
+  {
+    "id": 10,
+    "title": "Student PC Plus",
+    "category": "Budget",
+    "price": "699,000",
+    "img": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 3 4100 | GTX 1650 | 8GB DDR4 | 256GB SSD",
+    "description": "Оюутан, сурагчдад зориулсан боломжийн үнэтэй өдөр тутмын PC.",
+    "badge": "Оюутанд"
+  },
+  {
+    "id": 11,
+    "title": "Phantom Gaming Z",
+    "category": "Gaming",
+    "price": "2,899,000",
+    "img": "https://images.unsplash.com/photo-1603481546579-65d935ba9cdd?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i9-12900K | RTX 4070 Ti | 32GB DDR5 | 1TB NVMe",
+    "description": "AAA тоглоомуудыг өндөр график дээр тоглоход зориулагдсан гейминг PC.",
+    "badge": "Хүчирхэг"
+  },
+  {
+    "id": 12,
+    "title": "Compact Office One",
+    "category": "Office",
+    "price": "999,000",
+    "img": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i5-12400 | Intel UHD | 16GB DDR4 | 512GB SSD",
+    "description": "Компакт хэмжээтэй, оффисын ширээнд зай бага эзэлдэг компьютер.",
+    "badge": null
+  },
+  {
+    "id": 13,
+    "title": "EditFlow Studio",
+    "category": "Workstation",
+    "price": "3,299,000",
+    "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i7-14700K | RTX 4070 Super | 64GB DDR5 | 2TB SSD",
+    "description": "Premiere Pro, After Effects, DaVinci Resolve зэрэг програмд тохиромжтой.",
+    "badge": "Editor"
+  },
+  {
+    "id": 14,
+    "title": "Value Gamer",
+    "category": "Gaming",
+    "price": "1,499,000",
+    "img": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 5 5600X | RTX 3060 | 16GB DDR4 | 512GB NVMe",
+    "description": "1080p gaming хийхэд хангалттай хүчтэй, үнэ боломжийн сонголт.",
+    "badge": "Үнэ/чанар"
+  },
+  {
+    "id": 15,
+    "title": "Mini Desk Air",
+    "category": "Office",
+    "price": "1,199,000",
+    "img": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i5-13500T | Intel Iris Xe | 16GB DDR4 | 512GB NVMe",
+    "description": "Жижиг хэмжээтэй, дуу чимээ багатай оффис болон гэрийн хэрэглээний PC.",
+    "badge": "Mini"
+  },
+  {
+    "id": 16,
+    "title": "Ultra Budget PC",
+    "category": "Budget",
+    "price": "599,000",
+    "img": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i3-10100 | Intel UHD | 8GB DDR4 | 240GB SSD",
+    "description": "Интернет, Word, Excel, онлайн хичээл зэрэг энгийн хэрэглээнд тохиромжтой.",
+    "badge": "Хамгийн хямд"
+  },
+  {
+    "id": 17,
+    "title": "Neon Strike PC",
+    "category": "Gaming",
+    "price": "2,749,000",
+    "img": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i7-13700KF | RTX 4070 Ti | 32GB DDR5 | 1TB NVMe",
+    "description": "Neon RGB загвартай, streaming болон gaming хийхэд тохиромжтой.",
+    "badge": "Streaming"
+  },
+  {
+    "id": 18,
+    "title": "Office Smart 500",
+    "category": "Office",
+    "price": "1,099,000",
+    "img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 5 5600G | Radeon Vega | 16GB DDR4 | 512GB SSD",
+    "description": "Оффис, онлайн уулзалт, web browsing-д найдвартай ажиллана.",
+    "badge": "Найдвартай"
+  },
+  {
+    "id": 19,
+    "title": "Design Beast Max",
+    "category": "Workstation",
+    "price": "5,199,000",
+    "img": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Threadripper | RTX 4090 | 128GB DDR5 | 4TB NVMe",
+    "description": "Мэргэжлийн 3D, VFX, rendering ажилд зориулагдсан хамгийн хүчирхэг workstation.",
+    "badge": "Extreme"
+  },
+  {
+    "id": 20,
+    "title": "Home Basic PC",
+    "category": "Budget",
+    "price": "799,000",
+    "img": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i3-12100F | GT 1030 | 8GB DDR4 | 512GB SSD",
+    "description": "Гэрийн хэрэглээ, кино үзэх, хичээл хийхэд тохиромжтой компьютер.",
+    "badge": null
+  },
+  {
+    "id": 21,
+    "title": "Raptor Gaming 4070",
+    "category": "Gaming",
+    "price": "2,399,000",
+    "img": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 7 7800X3D | RTX 4070 | 32GB DDR5 | 1TB NVMe",
+    "description": "FPS тоглоом болон eSports-д өндөр refresh rate авахад тохиромжтой.",
+    "badge": "FPS"
+  },
+  {
+    "id": 22,
+    "title": "Business Core",
+    "category": "Office",
+    "price": "1,399,000",
+    "img": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i5-13600 | Intel UHD | 16GB DDR5 | 1TB SSD",
+    "description": "Компани, байгууллагын өдөр тутмын хэрэглээнд зориулсан хурдан оффис PC.",
+    "badge": "Business"
+  },
+  {
+    "id": 23,
+    "title": "Motion Graphics Pro",
+    "category": "Workstation",
+    "price": "3,999,000",
+    "img": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i9-14900K | RTX 4080 | 64GB DDR5 | 2TB NVMe",
+    "description": "Motion graphics, compositing, video export хийхэд хурдан ажиллагаатай.",
+    "badge": "Motion"
+  },
+  {
+    "id": 24,
+    "title": "Starter Gaming PC",
+    "category": "Budget",
+    "price": "1,099,000",
+    "img": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 5 5500 | GTX 1660 Super | 16GB DDR4 | 512GB SSD",
+    "description": "Анхлан геймерүүдэд зориулсан боломжийн үнэтэй gaming систем.",
+    "badge": "Starter"
+  },
+  {
+    "id": 25,
+    "title": "Shadow RTX Pro",
+    "category": "Gaming",
+    "price": "3,199,000",
+    "img": "https://images.unsplash.com/photo-1591238372338-22d30c883a86?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i9-13900KF | RTX 4080 | 32GB DDR5 | 2TB NVMe",
+    "description": "Ray tracing, 1440p болон 4K gaming хийхэд тохиромжтой хүчирхэг PC.",
+    "badge": "RTX"
+  },
+  {
+    "id": 26,
+    "title": "Office Daily",
+    "category": "Office",
+    "price": "899,000",
+    "img": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i3-13100 | Intel UHD | 16GB DDR4 | 512GB SSD",
+    "description": "Өдөр тутмын оффисын ажил, имэйл, тайлан бичихэд тохиромжтой.",
+    "badge": "Daily"
+  },
+  {
+    "id": 27,
+    "title": "Cinema Render Box",
+    "category": "Workstation",
+    "price": "4,899,000",
+    "img": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 9 7950X3D | RTX 4090 | 96GB DDR5 | 4TB SSD",
+    "description": "Cinema 4D, Blender, Unreal Engine render хийхэд зориулагдсан.",
+    "badge": "Cinema"
+  },
+  {
+    "id": 28,
+    "title": "Budget Office S",
+    "category": "Budget",
+    "price": "649,000",
+    "img": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel Pentium Gold | Intel UHD | 8GB DDR4 | 256GB SSD",
+    "description": "Хөнгөн хэрэглээний зориулалттай хамгийн энгийн тохиргоотой PC.",
+    "badge": "Simple"
+  },
+  {
+    "id": 29,
+    "title": "Cyber Arena PC",
+    "category": "Gaming",
+    "price": "2,599,000",
+    "img": "https://images.unsplash.com/photo-1616588589676-62b3bd4ff6d2?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 7 7700X | RTX 4070 Super | 32GB DDR5 | 1TB NVMe",
+    "description": "Cyberpunk, Warzone, Fortnite зэрэг тоглоомд өндөр FPS гаргана.",
+    "badge": "Arena"
+  },
+  {
+    "id": 30,
+    "title": "Clean Desk Mini",
+    "category": "Office",
+    "price": "1,249,000",
+    "img": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 5 7600 | Radeon Graphics | 16GB DDR5 | 512GB NVMe",
+    "description": "Цэвэрхэн minimal setup-д тохиромжтой жижиг хэмжээтэй оффис компьютер.",
+    "badge": "Minimal"
+  },
+  {
+    "id": 31,
+    "title": "AI Creator Station",
+    "category": "Workstation",
+    "price": "5,799,000",
+    "img": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i9-14900KS | RTX 4090 | 128GB DDR5 | 4TB NVMe",
+    "description": "AI model, video editing, 3D render зэрэг хүнд ажлуудад тохиромжтой.",
+    "badge": "AI"
+  },
+  {
+    "id": 32,
+    "title": "School PC Pack",
+    "category": "Budget",
+    "price": "729,000",
+    "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i3-10105 | Intel UHD | 8GB DDR4 | 512GB SSD",
+    "description": "Сурагч, оюутны хичээл, presentation, basic coding хийхэд тохиромжтой.",
+    "badge": "School"
+  },
+  {
+    "id": 33,
+    "title": "Liquid Core Gamer",
+    "category": "Gaming",
+    "price": "3,499,000",
+    "img": "https://images.unsplash.com/photo-1585079542156-2755d9c8a094?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i7-14700KF | RTX 4080 Super | 32GB DDR5 | 2TB NVMe",
+    "description": "Шингэн хөргөлттэй, удаан тоглоход температур тогтвортой gaming PC.",
+    "badge": "Liquid"
+  },
+  {
+    "id": 34,
+    "title": "Accounting Pro",
+    "category": "Office",
+    "price": "1,049,000",
+    "img": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i5-12500 | Intel UHD | 16GB DDR4 | 512GB SSD",
+    "description": "Санхүү, нягтлан бодох бүртгэлийн програмд тохиромжтой найдвартай PC.",
+    "badge": "Accounting"
+  },
+  {
+    "id": 35,
+    "title": "3D Artist Ultra",
+    "category": "Workstation",
+    "price": "4,599,000",
+    "img": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 9 7900 | RTX 4080 | 64GB DDR5 | 2TB NVMe",
+    "description": "3D modeling, sculpting, texture хийх artist-д зориулсан хүчирхэг PC.",
+    "badge": "3D"
+  },
+  {
+    "id": 36,
+    "title": "Home Lite",
+    "category": "Budget",
+    "price": "679,000",
+    "img": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Athlon 3000G | Vega Graphics | 8GB DDR4 | 256GB SSD",
+    "description": "Гэрийн энгийн хэрэглээ, интернет, кино үзэхэд тохиромжтой.",
+    "badge": "Home"
+  },
+  {
+    "id": 37,
+    "title": "Esports Champion",
+    "category": "Gaming",
+    "price": "2,099,000",
+    "img": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 7 5800X3D | RTX 4060 Ti | 32GB DDR4 | 1TB NVMe",
+    "description": "CS2, Valorant, Dota 2 зэрэг eSports тоглоомд зориулсан хурдан PC.",
+    "badge": "Esports"
+  },
+  {
+    "id": 38,
+    "title": "Corporate Slim",
+    "category": "Office",
+    "price": "1,449,000",
+    "img": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i7-12700 | Intel UHD | 32GB DDR4 | 1TB SSD",
+    "description": "Байгууллагын хэрэглээнд тохиромжтой slim case загвартай компьютер.",
+    "badge": "Slim"
+  },
+  {
+    "id": 39,
+    "title": "Video Pro Max",
+    "category": "Workstation",
+    "price": "4,099,000",
+    "img": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i9-13900K | RTX 4080 | 64GB DDR5 | 2TB NVMe",
+    "description": "4K video editing, color grading, rendering хийхэд тохиромжтой workstation.",
+    "badge": "4K Edit"
+  },
+  {
+    "id": 40,
+    "title": "Basic Gaming RX",
+    "category": "Budget",
+    "price": "1,249,000",
+    "img": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 5 4500 | RX 580 | 16GB DDR4 | 512GB SSD",
+    "description": "Хямд төсөвтэй хэрэглэгчдэд зориулсан basic gaming компьютер.",
+    "badge": "RX"
+  },
+  {
+    "id": 41,
+    "title": "Dragon Fire PC",
+    "category": "Gaming",
+    "price": "3,899,000",
+    "img": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i9-14900K | RTX 4080 Super | 64GB DDR5 | 2TB NVMe",
+    "description": "Ultra graphics тохиргоон дээр тоглоход зориулагдсан premium gaming PC.",
+    "badge": "Premium"
+  },
+  {
+    "id": 42,
+    "title": "Office Plus 32",
+    "category": "Office",
+    "price": "1,549,000",
+    "img": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i7-13700 | Intel UHD | 32GB DDR4 | 1TB NVMe",
+    "description": "Олон цонх, олон програм зэрэг ажиллуулахад тохиромжтой office PC.",
+    "badge": "32GB RAM"
+  },
+  {
+    "id": 43,
+    "title": "Unreal Engine Box",
+    "category": "Workstation",
+    "price": "5,399,000",
+    "img": "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 9 7950X | RTX 4090 | 128GB DDR5 | 4TB SSD",
+    "description": "Game development, Unreal Engine, real-time rendering хийхэд зориулагдсан.",
+    "badge": "Unreal"
+  },
+  {
+    "id": 44,
+    "title": "Budget Mini One",
+    "category": "Budget",
+    "price": "849,000",
+    "img": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i3-12100T | Intel UHD | 8GB DDR4 | 512GB SSD",
+    "description": "Жижиг хэмжээтэй, хямд үнэтэй, гэр болон оффист тохиромжтой.",
+    "badge": "Mini Budget"
+  },
+  {
+    "id": 45,
+    "title": "Frost White Gamer",
+    "category": "Gaming",
+    "price": "2,999,000",
+    "img": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 7 7800X3D | RTX 4070 Ti | 32GB DDR5 | 2TB NVMe",
+    "description": "Цагаан өнгийн aesthetic setup-д тохиромжтой premium gaming PC.",
+    "badge": "White Build"
+  },
+  {
+    "id": 46,
+    "title": "POS Office PC",
+    "category": "Office",
+    "price": "929,000",
+    "img": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i3-13100T | Intel UHD | 8GB DDR4 | 256GB SSD",
+    "description": "Дэлгүүр, касс, POS системд ашиглахад тохиромжтой найдвартай компьютер.",
+    "badge": "POS"
+  },
+  {
+    "id": 47,
+    "title": "Color Grade Studio",
+    "category": "Workstation",
+    "price": "3,699,000",
+    "img": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i7-14700K | RTX 4070 Ti | 64GB DDR5 | 2TB SSD",
+    "description": "Color grading, footage management, video export хийхэд зориулсан studio PC.",
+    "badge": "Studio"
+  },
+  {
+    "id": 48,
+    "title": "Cheap Gaming Start",
+    "category": "Budget",
+    "price": "999,000",
+    "img": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 5 3600 | GTX 1650 Super | 16GB DDR4 | 512GB SSD",
+    "description": "Анхны gaming PC авах гэж буй хэрэглэгчдэд тохиромжтой хямд сонголт.",
+    "badge": "First PC"
+  },
+  {
+    "id": 49,
+    "title": "Mega Streamer PC",
+    "category": "Gaming",
+    "price": "4,499,000",
+    "img": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?q=80&w=1200&auto=format&fit=crop",
+    "specs": "Intel i9-14900K | RTX 4090 | 64GB DDR5 | 4TB NVMe",
+    "description": "Gaming, streaming, recording зэрэг ажлыг зэрэг хийхэд зориулагдсан premium систем.",
+    "badge": "Streamer"
+  },
+  {
+    "id": 50,
+    "title": "Creator Budget Pro",
+    "category": "Workstation",
+    "price": "2,299,000",
+    "img": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=1200&auto=format&fit=crop",
+    "specs": "AMD Ryzen 7 7700 | RTX 4060 Ti | 32GB DDR5 | 1TB NVMe",
+    "description": "Видео монтаж, график дизайн сурч эхэлж буй creator-д тохиромжтой үнэ боломжийн workstation.",
+    "badge": "Creator"
+  }
+]

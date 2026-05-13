@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "High FPS Gaming Build",
+    "specs": "Intel Core i9-14900K\nGeForce RTX 4090",
+    "price": "$3,899.99",
+    "img": "https://images.unsplash.com/photo-1547082299-de196ea013d6",
+    "category": "gaming",
+    "description": "Хамгийн өндөр FPS-тэй тоглоомын компьютер"
+  },
+  {
+    "id": 2,
+    "title": "Budget Gaming Build",
+    "specs": "Ryzen 5 5600X\nGeForce RTX 4060",
+    "price": "$999.99",
+    "img": "https://images.unsplash.com/photo-1587202372583-49330a15584d",
+    "category": "budget",
+    "description": "Хямд үнэтэй тоглоомын компьютер"
+  },
+  {
+    "id": 3,
+    "title": "White Themed Build",
+    "specs": "Ryzen 7 7800X3D\nGeForce RTX 4070",
+    "price": "$2,099.99",
+    "img": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5",
+    "category": "themed",
+    "description": "Цагаан загвартай гоёмсог компьютер"
+  }
+]
