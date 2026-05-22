@@ -11,6 +11,20 @@ export type BuilderStateLoose = {
   [K in keyof PartsMockData["defaults"]]: string;
 };
 
+export function emptyBuilderSelection(): BuilderStateLoose {
+  return {
+    cpuId: "",
+    gpuId: "",
+    ramId: "",
+    motherboardId: "",
+    psuId: "",
+    caseId: "",
+    coolerId: "",
+    fanId: "",
+    storageId: "",
+  };
+}
+
 function findById<T extends { id: string }>(
   list: T[],
   id: string,
@@ -178,10 +192,11 @@ export function defaultKeyForCategory(
   return entry.defaultKey;
 }
 
-export function formatPartPrice(price: number): string {
-  return new Intl.NumberFormat("mn-MN", {
+export function formatPartPrice(price: number, currency = "MNT"): string {
+  const locale = currency === "USD" ? "en-US" : "mn-MN";
+  return new Intl.NumberFormat(locale, {
     style: "currency",
-    currency: "MNT",
-    maximumFractionDigits: 0,
+    currency,
+    maximumFractionDigits: currency === "USD" ? 2 : 0,
   }).format(price);
 }

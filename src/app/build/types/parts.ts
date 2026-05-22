@@ -136,6 +136,8 @@ export type PartsMockDefaults = {
 export type PartsMockData = {
   generatedAt: string;
   source: string[];
+  /** Price currency for `formatPartPrice` (API catalog uses USD). */
+  currency?: string;
   defaults: PartsMockDefaults;
   parts: {
     cpu: CpuPart[];
