@@ -2,20 +2,36 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ClipboardList, Monitor } from "lucide-react";
-import DummyBuilds from "@/data/build.json";
+import { fetchPrebuiltPcs } from "@/lib/prebuilt";
 
-type Build = {
-  id: number;
+type BuildCard = {
+  id: string;
   title: string;
   specs: string;
   price: string;
   img: string;
-  category: string;
-  description: string;
 };
 
-export default function Home() {
-  const builds: Build[] = DummyBuilds;
+function formatPrice(price: number, currency: string) {
+  if (currency === "USD") {
+    return `$${price.toFixed(2)}`;
+  }
+
+  return `${currency} ${price.toFixed(2)}`;
+}
+
+export default async function Home() {
+  const prebuiltPcs = await fetchPrebuiltPcs();
+  const builds: BuildCard[] = prebuiltPcs.slice(0, 3).map((pc) => ({
+    id: pc.id,
+    title: pc.name,
+    specs: pc.shortDescription,
+    price: formatPrice(pc.price, pc.currency),
+    img:
+      pc.imageUrl ||
+      pc.images?.[0] ||
+      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600",
+  }));
 
   return (
     <>
@@ -87,11 +103,11 @@ export default function Home() {
 </div>
       </div>
 
-      {/* RECOMMENDED BUILDS */}
+      {/* PREBUILT FEATURED BUILDS */}
       <div className="mt-8 pb-10">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold text-[#1a1a2e]">Recommended Builds</h2>
-          <Link href="/build" className="text-blue-600 hover:underline font-medium">
+          <h2 className="text-2xl font-bold text-[#1a1a2e]">Featured Prebuilt PCs</h2>
+          <Link href="/prebuilt" className="text-blue-600 hover:underline font-medium">
             View All →
           </Link>
         </div>
