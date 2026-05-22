@@ -1,5 +1,6 @@
 "use client";
 
+import { useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
 import {
   Cpu,
@@ -47,7 +48,14 @@ type PrebuiltPageClientProps = {
 };
 
 export default function PrebuiltPageClient({ initialPcs }: PrebuiltPageClientProps) {
-  const [activeCategory, setActiveCategory] = useState("Бүгд");
+  const searchParams = useSearchParams();
+  const surveyCategory = searchParams.get("category");
+  const initialCategory =
+    surveyCategory && CATEGORIES.includes(surveyCategory)
+      ? surveyCategory
+      : "Бүгд";
+
+  const [activeCategory, setActiveCategory] = useState(initialCategory);
   const [search, setSearch] = useState("");
 
   const pcs = useMemo(

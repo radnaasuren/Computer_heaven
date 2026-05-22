@@ -40,23 +40,23 @@ export default async function Home() {
         {/* LEFT */}
         <div className="max-w-xl">
           <h1 className="text-5xl font-bold mb-4 text-[#1a1a2e]">
-            Build Your Perfect PC
+            Өөрийн төгс компьютерийг угсраарай
           </h1>
 
           <p className="text-gray-500 mb-8 text-lg">
-            Smart recommendations based on your needs
+            Таны хэрэгцээнд суурилсан ухаалаг зөвлөмж
           </p>
 
           <div className="flex gap-4 mb-10">
             <Link href="/survey">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 rounded-xl text-base font-semibold shadow-md">
-                Start Survey
+                Судалгаа эхлүүлэх
               </Button>
             </Link>
 
             <Link href="/build">
               <Button variant="outline" className="px-8 py-6 rounded-xl text-base font-semibold border-gray-300">
-                Build Manually
+                Гараар угсрах
               </Button>
             </Link>
           </div>
@@ -69,10 +69,10 @@ export default async function Home() {
                   <div className="p-2 bg-blue-50 rounded-lg">
                     <ClipboardList className="w-5 h-5 text-blue-600" />
                   </div>
-                  <div className="font-semibold text-base">Smart Survey</div>
+                  <div className="font-semibold text-base">Ухаалаг судалгаа</div>
                 </div>
                 <p className="text-sm text-gray-400">
-                  Answer a few questions → get build
+                  Хэдэн асуултад хариул → угсралт авах
                 </p>
               </Card>
             </Link>
@@ -83,10 +83,10 @@ export default async function Home() {
                   <div className="p-2 bg-blue-50 rounded-lg">
                     <Monitor className="w-5 h-5 text-blue-600" />
                   </div>
-                  <div className="font-semibold text-base">PC Builder</div>
+                  <div className="font-semibold text-base">PC угсралт</div>
                 </div>
                 <p className="text-sm text-gray-400">
-                  Answer a few questions → get build
+                  Эд анги сонгоод өөрөө угсрах
                 </p>
               </Card>
             </Link>
@@ -106,9 +106,9 @@ export default async function Home() {
       {/* PREBUILT FEATURED BUILDS */}
       <div className="mt-8 pb-10">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold text-[#1a1a2e]">Featured Prebuilt PCs</h2>
+          <h2 className="text-2xl font-bold text-[#1a1a2e]">Онцлох бэлэн компьютерүүд</h2>
           <Link href="/prebuilt" className="text-blue-600 hover:underline font-medium">
-            View All →
+            Бүгдийг харах →
           </Link>
         </div>
 
